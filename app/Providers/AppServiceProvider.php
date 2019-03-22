@@ -14,21 +14,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        // Validator::extend("emails", function($attribute, $value, $parameters) {
-        //     $rules = [
-        //         'email' => 'required|email',
-        //     ];
-        //     foreach ($value as $email) {
-        //         $data = [
-        //             'email' => $email
-        //         ];
-        //         $validator = Validator::make($data, $rules);
-        //         if ($validator->fails()) {
-        //             return false;
-        //         }
-        //     }
-        //     return true;
-        // });
     }
 
     /**
